@@ -39,3 +39,15 @@ child: Text(
     textAlign: TextAlign.center,
     style: TextStyle(color:  Colors.blue, fontSize: 20),
 ),
+
+***Text
+글자 크기 -> fontSize : (입력)
+글자 굵기 -> fontWeight : FontWeight.w(입력)
+글자 색상 -> color : Colors.(입력)
+
+***Button 
+버튼의 종류 
+1) TextButton 텍스트만 있는 버튼
+2) OutlinedButton 테두리가 있는 버튼
+3) ElevatedButton 입체적으로 튀어나온 느낌의 버튼
+   
