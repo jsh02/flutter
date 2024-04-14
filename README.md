@@ -40,7 +40,7 @@ child: Text(
     style: TextStyle(color:  Colors.blue, fontSize: 20),
 ),
 
-***Text
+###Text
 글자 크기 -> fontSize : (입력)
 글자 굵기 -> fontWeight : FontWeight.w(입력)
 글자 색상 -> color : Colors.(입력)
