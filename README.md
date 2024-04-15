@@ -40,7 +40,7 @@ child: Text(
     style: TextStyle(color:  Colors.blue, fontSize: 20),
 ),
 
-###Text
+***Text
 글자 크기 -> fontSize : (입력)
 글자 굵기 -> fontWeight : FontWeight.w(입력)
 글자 색상 -> color : Colors.(입력)
@@ -51,3 +51,26 @@ child: Text(
 2) OutlinedButton 테두리가 있는 버튼
 3) ElevatedButton 입체적으로 튀어나온 느낌의 버튼
    
+클릭 시 실행 -> onPressed: (){}
+버튼 스타일 -> style: TextButton.styleFrom()      주색상 지정 -> foregroundColor: Colors.(입력)
+버튼 스타일 -> style: OutlinedButton.styleFrom()  주색상 지정 -> foregroundColor: Colors.(입력)
+버튼 스타일 -> style: ElevatedButton.styleFrom()  주색상 지정 -> backgroundColor: Colors.(입력)
+
+버튼에 넣을 위젯 -> child: Text(입력)
+
+***Container
+
+스타일 작용 -> decoration : BoxDecoration ()
+배경색 작용 -> color.Colors.(입력)
+테두리 작용 -> border: Border.all()
+모서리 둥글게 만들기 -> borderRadius : BorderRadius.circular(입력)
+
+***배치
+Column 세로 배치 -> 위젯을 세로로 배치
+Row  가로 배치 -> 위젯을 가로로 배치
+
+mainAxisAlignment: MainAxisAlignment.start  ->  시작에 정렬
+mainAxisAlignment: MainAxisAlignment.center ->  중앙에 정렬
+mainAxisAlignment: MainAxisAlignment.end    ->  끝에 정렬
+
+
