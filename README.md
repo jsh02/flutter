@@ -1,5 +1,8 @@
 ***시작하기
-lib 폴더 속 main.dart 파일이 플러터 메인 파
+
+lib 폴더 속 main.dart 파일이 플러터 메인 파일
+(lib 이 안보일 경우 android 로 설정되어있음 project 로 변경)
+
 
 
 
@@ -11,6 +14,13 @@ lib 폴더 속 main.dart 파일이 플러터 메인 파
 
 문자열 안에서 \n 사용가능
 
+StatelessWidget vs StatefulWidget
+
+***StatelessWidget
+필수적으로 build()함수 실행
+위젯값은 불변 이므로 만약 변경된 값이 필요하다면 build 함수 자체를 재 실행
+
+*** StatefulWidget
 
 문자열의 위치를 바꾸고 싶을 때는 Center() 함수 / 
 
