@@ -73,4 +73,13 @@ mainAxisAlignment: MainAxisAlignment.start  ->  시작에 정렬
 mainAxisAlignment: MainAxisAlignment.center ->  중앙에 정렬
 mainAxisAlignment: MainAxisAlignment.end    ->  끝에 정렬
 
+***이미지
+자신이 만든 상위 폴더에서 New 를 누르고 Directory 에다가 assets 폴더 만들기
+이후 이 assets 폴더를 pubspec.yaml 파일에 지정하기 이 파일 안에 assets : 주석처리되어있는거 해제 후
+assets:
+  - assets/
+
+이후 위젯을 Image.assets( 이 안에 asset/'이미지이름') 
+
+
 
