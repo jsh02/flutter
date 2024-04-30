@@ -4,7 +4,7 @@
 lib 폴더 속 main.dart 파일이 플러터 메인 파일
 (lib 이 안보일 경우 android 로 설정되어있음 project 로 변경)
 
-
+## 
 **다트 언어의 특징**
 
 1.다트는 main 함수로 시작한다
