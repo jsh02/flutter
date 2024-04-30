@@ -7,24 +7,24 @@ lib 폴더 속 main.dart 파일이 플러터 메인 파일
 
 ## 다트 언어의 특징
 
-1.다트는 main 함수로 시작한다 \n
+1.다트는 main 함수로 시작한다 
 2.다트는 어디에서나 변수 선언과 사용 가능
 
 
 문자열 안에서 \n 사용가능
 
-##위젯설명
+## 위젯설명
 
-Container 위젯 : 자식을 담는 컨테이너 역할 배경색, 너비와 높이, 테두리 등의 디자인을 지정할 수 있다
+Container 위젯 : 자식을 담는 컨테이너 역할 **배경색, 너비와 높이, 테두리 등의 디자인**을 지정할 수 있다
 GestureDetector 위젯 : 탭이나 드래그 그리고 더블 클릭 같은 제스처 기능이 자식 위젯에 인식됐을 때 함수를 실행할 수 있습니다.
-SizedBox 위젯 : 높이와 너비를 지정하는 위젯 Container 위젯과는 다르게 디자인 적 요소는 적용할 수 없고 const 생성자로 선언할 수 있어서 퍼포먼스 측면에서 더 효율적
+SizedBox 위젯 : 높이와 너비를 지정하는 위젯 Container 위젯과는 다르게 디자인 적 요소는 **적용할 수 없고** const 생성자로 선언할 수 있어서 퍼포먼스 측면에서 더 효율적
 
-Column 위젯 : children 매개변수에 입력된 모든 위젯들을 세로로 배치
-Row 위젯 : children 매개변수에 입력된 모든 위젯들을 가로로 배치
-ListView 위젯 : 리스트를 구현 할 때 사용, 입력된 위젯이 화면을 벗어나게 되면 스크롤이 가능
+Column 위젯 : children 매개변수에 입력된 모든 위젯들을 **세로**로 배치
+Row 위젯 : children 매개변수에 입력된 모든 위젯들을 **가로**로 배치
+ListView 위젯 : 리스트를 구현 할 때 사용, 입력된 위젯이 **화면을 벗어나게 되면 스크롤이 가능**
 
 
-StatelessWidget vs StatefulWidget
+## StatelessWidget vs StatefulWidget
 
 ***StatelessWidget
 필수적으로 build()함수 실행
