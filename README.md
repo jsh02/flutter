@@ -1,4 +1,5 @@
-***시작하기
+##시작하기
+
 
 lib 폴더 속 main.dart 파일이 플러터 메인 파일
 (lib 이 안보일 경우 android 로 설정되어있음 project 로 변경)
